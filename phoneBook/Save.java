@@ -17,6 +17,7 @@ public class Save {
 
             writer.write(inputsave.takeSurname()+" "+inputsave.takeName()+" "+inputsave.takeMiddlename()+" "+inputsave.takeBirthday()+" "+inputsave.takeNumber());
             writer.newLine();
+            writer.close();
         } catch (IOException e) {
             System.out.println("Ошибка записи!");
         }
